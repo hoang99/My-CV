@@ -1,0 +1,477 @@
+/* PC */
+@media only screen and (min-width: 1025px) {
+    .header-link {
+        display: block;
+    }
+    .header-link-mobile {
+        display: none;
+    }
+    .nav-icon-open {
+        display: none;
+    }
+    .nav-icon-close {
+        display: none;
+    }
+    .nav-mobile {
+        display: none;
+    }
+
+    .review-sideshow .lbl-3,
+    .review-sideshow .lbl-4,
+    .review-sideshow .lbl-5,
+    .review-sideshow .lbl-6 {
+        display: none;
+    }
+    #content-skill {
+        width: 100%;
+        min-height: 600px;
+
+        background-color: #202026;
+    }
+}
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    #content-skill {
+        width: 100%;
+        min-height: 600px;
+        background-color: #202026;
+    }
+    .skill-container-img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .skill-content {
+        width: 90%;
+    }
+    .skill-chevron-left {
+        margin-left: -20px;
+    }
+
+    .skill-img {
+        object-fit: cover;
+        width: 97%;
+        min-width: 280px;
+        height: 280px;
+        box-shadow: rgb(50 57 77) 0px 24px 30px 0px;
+        margin-bottom: 20px;
+    }
+    .review-img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        width: 280px;
+        height: 280px;
+        margin-top: 30px;
+        border-radius: 50%;
+        border: 3px solid #0bceaf;
+    }
+    /* review */
+    .review-sideshow .lbl-4,
+    .review-sideshow .lbl-5,
+    .review-sideshow .lbl-6 {
+        display: none;
+    }
+    .group-items {
+        display: flex;
+        width: 300%;
+    }
+    #radio1:checked ~ .group-items > .review-flex {
+        /* margin-right: 0; */
+        transform: translateX(0%);
+    }
+    #radio2:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-66.66666%);
+    }
+    #radio3:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-133.33332%);
+    }
+    #radio1:checked ~ .review-sideshow .lbl-1,
+    #radio2:checked ~ .review-sideshow .lbl-2,
+    #radio3:checked ~ .review-sideshow .lbl-3 {
+        background-color: #0bceaf;
+        border: 2px solid #0bceaf;
+    }
+}
+
+/* 575 */
+
+@media only screen and (max-width: 1023px) {
+    .header-link {
+        display: none;
+    }
+    .header-link-mobile {
+        display: block;
+    }
+    .nav-icon-open {
+        display: block;
+    }
+    .nav-icon-close {
+        display: block;
+    }
+    .nav-mobile {
+        display: block;
+    }
+}
+/* Ipad mini */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* begin about */
+    .about-content-wid {
+        padding: 0 0 30px 0;
+    }
+
+    .about-content-img {
+        object-fit: cover;
+        width: 100%;
+        min-width: 320px;
+        height: 300px;
+    }
+    .about-me {
+        font-size: 32px;
+        margin: 20px 0;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
+    /* end about */
+    /* begin skill */
+
+    #content-skill {
+        width: 100%;
+        min-height: 650px;
+        background-color: #202026;
+    }
+    .skill-container-img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .skill-content {
+        width: 90%;
+    }
+    .skill-chevron-left {
+        margin-left: -20px;
+    }
+    .skill-img {
+        object-fit: cover;
+        width: 98%;
+        min-width: 280px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .skill-content {
+        padding-bottom: 30px;
+    }
+    /* end skill */
+    /* begin experience */
+    .exp-education-item {
+        width: 92vw;
+        padding-left: 20px;
+        min-width: 280px;
+        height: 250px;
+        min-height: 250px;
+    }
+    .exp-item {
+        width: 92vw;
+
+        min-width: 280px;
+        height: 300px;
+        min-height: 300px;
+    }
+    .exp-title-mobile {
+        margin: 40px 0 20px 0;
+    }
+    /* end experience */
+    /* begin review */
+    .review-box {
+        margin-bottom: 16px;
+    }
+    .review-sideshow .lbl-4,
+    .review-sideshow .lbl-5,
+    .review-sideshow .lbl-6 {
+        display: none;
+    }
+    .group-items {
+        display: flex;
+        width: 300%;
+    }
+    #radio1:checked ~ .group-items > .review-flex {
+        /* margin-right: 0; */
+        transform: translateX(0%);
+    }
+    #radio2:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-66.66666%);
+    }
+    #radio3:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-133.33332%);
+    }
+    #radio1:checked ~ .review-sideshow .lbl-1,
+    #radio2:checked ~ .review-sideshow .lbl-2,
+    #radio3:checked ~ .review-sideshow .lbl-3 {
+        background-color: #0bceaf;
+        border: 2px solid #0bceaf;
+    }
+    /* and review */
+    /* begin contact */
+    .contact-address {
+        width: 90vw;
+    }
+    .contact-address .icon-box {
+        padding: 16px 0 0;
+    }
+    .contact-form {
+        padding-top: 30px;
+    }
+    .btn-contact-form {
+        margin-bottom: 16px;
+    }
+    /* end contact */
+    /* begin footer */
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .reserved {
+        text-align: center;
+        font-size: 14px;
+    }
+    #footer .icon {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    /* end footer */
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    #content-about,
+    #content-experience,
+    #content-interested,
+    #content-blog,
+    #content-review,
+    #content-contact {
+        overflow: hidden;
+    }
+    /* begin header */
+    header {
+        height: 60px;
+    }
+    #header .header-icon {
+        padding: 0 16px;
+        font-size: 40px;
+    }
+    .nav-icon-open {
+        line-height: 60px;
+        padding: 0 16px;
+    }
+    header .sticky {
+        background-color: #1d1d1f;
+        height: 60px;
+    }
+    /* end header */
+    /* begin home */
+
+    .mobile-row {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .home-content-img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .information {
+        text-align: center;
+    }
+    .home-hello {
+        place-self: center;
+    }
+    .home-name {
+        font-size: 40px;
+    }
+    /* end home */
+
+    /* begin about */
+
+    .about-content-img {
+        object-fit: cover;
+        width: 100%;
+        min-width: 320px;
+        height: 300px;
+    }
+    .about-me {
+        font-size: 32px;
+        margin: 20px 0;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
+    .about-introduce,
+    .about-icon,
+    .about-cv {
+        text-align: center;
+    }
+    .about-content-frontend,
+    .about-content-UI,
+    .about-content-backend {
+        margin-bottom: 10px;
+    }
+    /* end about */
+    /* begin skill */
+
+    .skill-img {
+        object-fit: cover;
+        width: 100%;
+        min-width: 280px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .skill-content {
+        text-align: center;
+    }
+    .group-skill-icon {
+        position: absolute;
+        display: flex;
+        /* padding: 155% 0 0 0; */
+        padding-top: 640px;
+        left: 50%;
+        transform: translateX(-58%);
+    }
+    /* end skill */
+    /* begin experience */
+    .exp-education-item {
+        width: 92vw;
+        padding-left: 20px;
+        min-width: 280px;
+        height: 250px;
+        min-height: 250px;
+    }
+    .exp-item {
+        width: 92vw;
+
+        min-width: 280px;
+        height: 300px;
+        min-height: 300px;
+    }
+    .exp-title-mobile {
+        margin: 40px 0 20px 0;
+    }
+    /* end experience */
+    /* begin interested */
+    /* .top-50 {
+        width: 100vw;
+    } */
+    /* end interested */
+
+    /* begin pricing */
+
+    /* end pricing */
+
+    /* begin blog */
+    .blog-box {
+        margin-bottom: 16px;
+    }
+    /* end blog */
+    /* begin review */
+
+    .review-box {
+        margin-bottom: 16px;
+    }
+    .review-img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .group-items {
+        /* margin-left: -10px; */
+        display: flex;
+        width: 600%;
+    }
+    /* .group-review {
+        overflow: hidden;
+    } */
+    #radio1:checked ~ .group-items > .review-flex {
+        /* margin-right: 0; */
+        transform: translateX(0%);
+    }
+    #radio2:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-33.3333%);
+    }
+    #radio3:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-66.6666%);
+    }
+    #radio4:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-100%);
+    }
+    #radio5:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-133.3333%);
+    }
+    #radio6:checked ~ .group-items > .review-flex {
+        /* margin-right: -50%; */
+        transform: translateX(-166.666%);
+    }
+    #radio1:checked ~ .review-sideshow .lbl-1,
+    #radio2:checked ~ .review-sideshow .lbl-2,
+    #radio3:checked ~ .review-sideshow .lbl-3,
+    #radio4:checked ~ .review-sideshow .lbl-4,
+    #radio5:checked ~ .review-sideshow .lbl-5,
+    #radio6:checked ~ .review-sideshow .lbl-6 {
+        background-color: #0bceaf;
+        border: 2px solid #0bceaf;
+    }
+
+    /* end review */
+
+    /* begin contact */
+    .contact-address {
+        width: 92vw;
+    }
+    .contact-address .icon-box {
+        padding: 16px 0 0 0;
+    }
+    .contact-address .inline-block {
+        text-align: center;
+    }
+    .btn-contact-form {
+        margin-bottom: 16px;
+    }
+    /* end contact */
+    /* begin footer */
+    #footer {
+        padding-top: 50px;
+    }
+    #footer .reserved {
+        text-align: center;
+        font-size: 14px;
+    }
+    #footer .icon {
+        font-size: 14px;
+        padding: 0 5px;
+        margin: 16px 10px 30px 10px;
+    }
+    /* end footer */
+}
+@media screen and (max-width: 380px) {
+    .group-items {
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .skill-img {
+        display: none;
+    }
+
+    .review-img {
+        width: 235px;
+        height: 235px;
+    }
+}
