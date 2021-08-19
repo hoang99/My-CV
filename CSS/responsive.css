@@ -55,6 +55,7 @@
         min-width: 280px;
         height: 280px;
         box-shadow: rgb(50 57 77) 0px 24px 30px 0px;
+        -webkit-box-shadow: rgb(50 57 77) 0px 24px 30px 0px;
         margin-bottom: 20px;
     }
     .review-img {
@@ -261,8 +262,12 @@
         height: 60px;
     }
     #header .header-icon {
-        padding: 0 16px;
-        font-size: 40px;
+        padding: 8px 16px;
+    }
+    #header .header-icon a {
+        font-size: 30px;
+        color: #0bceaf;
+        cursor: pointer;
     }
     .nav-icon-open {
         line-height: 60px;
