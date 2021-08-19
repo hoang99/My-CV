@@ -146,6 +146,9 @@ stopSlider.addEventListener("mouseover", () => {
 stopSlider.addEventListener("mouseout", () => {
     repeat();
 })
+// auto play video
+
+document.getElementById('myVideo').play();
 // begin scroll smooth
 // $(document).ready(function () {
 //     // Add smooth scrolling to all links

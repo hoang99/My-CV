@@ -163,7 +163,7 @@ section .active {
     padding-top: 100px;
 }
 #myVideo {
-    position: absolute;
+    position: fixed;
     top: 0;
     /* left: 0; */
     right: 0;
@@ -263,6 +263,7 @@ section .active {
     height: 300px;
     border-radius: 50%;
     box-shadow: rgb(0 0 0 / 50%) 10px 53px 63px 10px;
+    -webkit-box-shadow: rgb(0 0 0 / 50%) 10px 53px 63px 10px;
 }
 /* END CONTENT HOME*/
 
@@ -372,6 +373,7 @@ section .active {
     /* margin-right: 20px; */
     min-height: 250px;
     box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
     border-radius: 10px;
 }
 
@@ -407,6 +409,7 @@ section .active {
     height: 300px;
     padding: 5px 0;
     box-shadow: rgb(50 57 77) 0px 24px 30px 0px;
+    -webkit-box-shadow: rgb(50 57 77) 0px 24px 30px 0px;
     border-radius: 5px;
 }
 .skill-content {
@@ -522,6 +525,7 @@ section .active {
     margin-bottom: 20px;
     padding: 20px 30px;
     box-shadow: rgb(0 0 0 / 56%) 0px 17px 20px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 17px 20px -10px;
     border-radius: 8px;
 }
 
@@ -533,6 +537,7 @@ section .active {
     margin-bottom: 20px;
     padding: 20px 30px;
     box-shadow: rgb(0 0 0 / 56%) 0px 17px 20px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 17px 20px -10px;
     border-radius: 8px;
 }
 
@@ -617,6 +622,7 @@ section .active {
     margin-top: 30px;
     display: flex;
     box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
@@ -676,6 +682,7 @@ section .active {
     background-color: #303033;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
 }
 .content-group {
     padding: 20px;
@@ -773,6 +780,7 @@ section .active {
     flex-direction: column;
     align-items: center;
     box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
 }
 .review-img {
     object-fit: cover;
@@ -837,6 +845,7 @@ section .active {
     background-color: #303036;
     margin-bottom: 20px;
     box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+    -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
 }
 .contact-address .icon-box {
     display: flex;
