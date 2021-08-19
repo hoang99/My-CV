@@ -486,9 +486,11 @@ section .active {
 .group-skill-item {
     position: absolute;
     clip-path: circle(0% at 0 50%);
+    -webkit-clip-path: circle(0% at 0 50%);
 }
 .group-skill .active {
     clip-path: circle(150% at 0 50%);
+    -webkit-clip-path: circle(150% at 0 50%);
     transition: 2s;
 }
 /* AND CONTENT SKILL */
