@@ -336,8 +336,7 @@
     .about-content-UI,
     .about-content-backend {
         margin-bottom: 10px;
-        box-shadow: 0 15px 15px 0 #000;
-        -webkit-box-shadow: 0 15px 15px 0 #000;
+        box-shadow: none;
     }
     /* end about */
     /* begin skill */
@@ -348,6 +347,7 @@
         min-width: 280px;
         height: 200px;
         margin-bottom: 20px;
+        box-shadow: 0 5px 5px 0 #1d1d1f;
     }
     .skill-content {
         text-align: center;
@@ -368,10 +368,11 @@
         min-width: 280px;
         height: 250px;
         min-height: 250px;
+        box-shadow: none;
     }
     .exp-item {
         width: 92vw;
-
+        box-shadow: none;
         min-width: 280px;
         height: 300px;
         min-height: 300px;
@@ -387,18 +388,22 @@
     /* end interested */
 
     /* begin pricing */
-
+    .pricing-box {
+        box-shadow: none;
+    }
     /* end pricing */
 
     /* begin blog */
     .blog-box {
         margin-bottom: 16px;
+        box-shadow: none;
     }
     /* end blog */
     /* begin review */
 
     .review-box {
         margin-bottom: 16px;
+        box-shadow: none;
     }
     .review-img {
         width: 280px;
@@ -451,6 +456,7 @@
 
     /* begin contact */
     .contact-address {
+        box-shadow: none;
         width: 92vw;
     }
     .contact-address .icon-box {
