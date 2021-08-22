@@ -262,10 +262,10 @@
         height: 60px;
     }
     #header .header-icon {
-        padding: 8px 16px;
+        padding: 0px 16px;
     }
     #header .header-icon a {
-        font-size: 30px;
+        font-size: 40px;
         color: #0bceaf;
         cursor: pointer;
     }
@@ -289,7 +289,10 @@
         width: 250px;
         height: 250px;
         margin-bottom: 50px;
+        box-shadow: rgb(0 0 0 / 50%) 0px 20px 20px 0px;
+        -webkit-box-shadow: rgb(0 0 0 / 50%) 0px 20px 20px 0px;
     }
+
     .information {
         text-align: center;
     }
@@ -316,6 +319,14 @@
         width: 100%;
         text-align: center;
     }
+    .about-information {
+        padding-left: 8px;
+        padding-right: 8px;
+        top: 80px;
+    }
+    .about-icon-li {
+        margin: 10px 20px;
+    }
     .about-introduce,
     .about-icon,
     .about-cv {
@@ -325,6 +336,8 @@
     .about-content-UI,
     .about-content-backend {
         margin-bottom: 10px;
+        box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
+        -webkit-box-shadow: rgb(0 0 0 / 56%) 0px 40px 40px -10px;
     }
     /* end about */
     /* begin skill */
